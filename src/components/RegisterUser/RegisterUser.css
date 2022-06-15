@@ -1,0 +1,42 @@
+form {
+  padding: 20px 25px;
+  box-shadow: 0 0 12px rgb(192 186 186 / 40%);
+  border: none;
+}
+.main-parent {
+  border: 1px solid #f4f0f0;
+  margin-bottom: 10px;
+}
+.main-parent p {
+  color: red;
+  margin-top: 0;
+}
+.form-group {
+  margin: 10px 10px 0 20px;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-group-btn {
+  text-align: center;
+}
+.form-group label {
+  margin-right: 10px;
+}
+.form-group-btn button,
+.form-group input {
+  padding: 5px 30px;
+  border: 1px solid lightgray;
+  font-size: 25px;
+}
+.form-group-btn button {
+  padding: 10px 30px;
+  background: #fff;
+  cursor: pointer;
+}
+.form-group input {
+  padding: 5px;
+  font-size: 25px;
+}
